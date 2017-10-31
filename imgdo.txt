@@ -1,0 +1,39 @@
+reading and writing using openxml
+
+windowsbase
+using DocumentFormat.OpenXml.Packaging;
+using DocumentFormat.OpenXml.Spreadsheet;
+
+nugget
+Install-Package DocumentFormat.OpenXml -Version 2.7.2	
+
+- High-performance generation of word-processing documents, spreadsheets, and presentations.
+- Populating content in DOCX files from an XML data source.
+- Splitting up (shredding) a DOCX or PPTX file into multiple files, and combining multiple DOCX / PPTX files into a single file.
+- High fidelity conversion of DOCX => HTML/CSS and HTML/CSS => DOCX.
+- Extraction of data from XLSX.
+- Searching and replacing content in DOCX / PPTX using regular expressions.
+- Updating cached data and embedded spreadsheets for charts in DOCX / PPTX.
+- Document modification, such as removing tracked revisions or removing unacceptable content from documents.
+
+
+http://jsfiddle.net/m1erickson/ne4Up/
+https://stackoverflow.com/questions/18635224/how-to-use-data-uri-to-copy-canvas-as-image-or-another-canvas
+https://stackoverflow.com/questions/40258028/canvas-toblob-is-not-recognized-as-a-function-in-safari
+https://stackoverflow.com/questions/29814895/converting-canvas-to-blob-using-cropper-js
+https://stackoverflow.com/questions/17591148/converting-data-uri-to-image-data
+https://stackoverflow.com/questions/6011378/how-to-add-image-to-canvas
+https://stackoverflow.com/questions/20310688/blob-download-not-working-in-ie
+https://stackoverflow.com/questions/3916191/download-data-url-file
+https://github.com/blueimp/JavaScript-Canvas-to-Blob
+https://gist.github.com/davoclavo/4424731
+https://github.com/fengyuanchen/cropper/issues/612
+https://github.com/blueimp/JavaScript-Canvas-to-Blob
+https://stackoverflow.com/questions/31204821/how-to-export-svg-graph-to-pdf
+https://gist.github.com/battlehorse/1333906
+https://www.codingforums.com/javascript-programming/327618-download-google-chart-png-ie.html
+https://jsfiddle.net/nekyouto/gokpfr00/
+https://stackoverflow.com/questions/7650587/using-javascript-to-display-blob
+https://jsfiddle.net/red_stapler/x3vf9qv2/1/
+https://stackoverflow.com/questions/10473932/browser-html-force-download-of-image-from-src-dataimage-jpegbase64
+
